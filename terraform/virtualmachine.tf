@@ -18,7 +18,7 @@ resource "azurerm_windows_virtual_machine" "appvm1nic" {
   name                = "appvm1"
   resource_group_name = azurerm_resource_group.azvmrg.name
   location            = azurerm_resource_group.azvmrg.location
-  size                = "Standard_B2ms"
+  size                = "Standard_B2s"
   admin_username      = "adminuser"
   admin_password      = "P@$$w0rd1234!"
   network_interface_ids = [
