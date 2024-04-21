@@ -14,8 +14,7 @@ provider "azurerm" {
 
 data "azurerm_client_config" "current" {}
 
-#Create Resource Group
-resource "azurerm_resource_group" "tamops" {
-  name     = "github-sarat-example"
+resource "azurerm_resource_group" "testrg" {
+  name     = "github-sarat-rg"
   location = "eastus"
 }
