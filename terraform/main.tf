@@ -18,9 +18,3 @@ resource "azurerm_resource_group" "testrg" {
   name     = "github-sarat-rg"
   location = "eastus"
 }
-
-
-resource "azurerm_resource_group" "sagar-rg" {
-  name     = "github-sagar-rg"
-  location = "eastus"
-}
