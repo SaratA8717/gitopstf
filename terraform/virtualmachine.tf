@@ -1,7 +1,7 @@
-resource "azurerm_resource_group" "azvmrg" {
-  name     = "azvm-rg"
-  location = "east us"
-}
+# resource "azurerm_resource_group" "azvmrg" {
+#   name     = "azvm-rg"
+#   location = "east us"
+# }
 
 # resource "azurerm_network_interface" "appvm1nic" {
 #   name                = "appvm1nic"
